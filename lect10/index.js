@@ -1,0 +1,44 @@
+// localStorage.setItem("key","hehehehehahahhah")
+// let data = localStorage.getItem("K")
+// // localStorage.removeItem("key")
+// console.log(data);
+
+let formData = document.querySelector("#formData")
+formData.addEventListener("submit",(e)=>{
+    e.preventDefault()
+let data = {
+    name:formData[0].value,
+    email:formData[1].value,
+    pass:formData[2].value,
+}
+localStorage.setItem("userData",JSON.stringify(data))
+// console.log(data);
+
+})
+
+// console.log(formData[0].value);
+// console.log(formData[1].value);
+// console.log(formData[2].value);
+
+
+
+let LoginData = document.querySelector("#LoginData")
+LoginData.addEventListener("submit",(e)=>{
+    e.preventDefault()
+
+    let login={
+        email:LoginData[0].value,
+        pass:LoginData[1].value,
+    }
+
+    let localStorageData = localStorage.getItem("userData")
+    console.log(localStorageData);
+    let mainData = JSON.parse(localStorageData)
+    console.log(mainData);
+
+    if(Login.email===mainData.email && Login.pass===mainData.pass){
+        alert("aapne sab kuch shi kiya hai")
+    }else{
+        alert("aapse kuch nahi ho payega")
+    }
+})
