@@ -23,5 +23,5 @@ window.allP=data.products
 
 console.log(window);
 function addtoCart(id){
-    //console.log
+    //console.logdwadswadswawasdda
 }
