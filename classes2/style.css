@@ -11,3 +11,26 @@ button{
     color:brown;
     background-color:white;
 }
+
+
+/* Selectors 
+1. universal *{}
+2.element h1{}
+3. id selector #myid{}
+4.class selector .myclass{} */
+
+*{
+    font-style:oblique;
+}
+
+h2{
+    color: rgb(67, 8, 122);
+}
+
+#id1{
+    color: rgb(8, 88, 61);
+}
+
+.class1 {
+    color: rgb(132, 81, 19);
+}

@@ -1,0 +1,15 @@
+#box{
+    background-color:blue;
+}
+
+.heading {
+    color: red;
+}
+    /* or we can also
+    h1, h2, h3 {
+    color:red;
+ } */
+
+ button {
+    background-color:green;
+ }
