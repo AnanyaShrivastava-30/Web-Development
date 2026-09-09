@@ -1,8 +1,11 @@
 h1{
     color:rgb(209, 6, 101);
+    text-decoration:line-through;
+    text-transform:uppercase;
 }
 p{
     color:rgb(189, 83, 83);
+    line-height: 30px;
 }
 body{
     background-color:rgb(252, 199, 226);
@@ -25,6 +28,7 @@ button{
 
 h2{
     color: rgb(67, 8, 122);
+    text-decoration: magenta wavy underline;
 }
 
 #id1{
@@ -33,4 +37,22 @@ h2{
 
 .class1 {
     color: rgb(132, 81, 19);
+}
+
+h3{
+    text-align: center;
+    font-weight:500;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 10px;
 }
