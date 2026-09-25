@@ -15,7 +15,6 @@ button{
     background-color:white;
 }
 
-
 /* Selectors 
 1. universal *{}
 2.element h1{}
@@ -106,5 +105,7 @@ div{
 
 }
 
+/* visibility & Display
 
+when visibility is hidden for any element, space for that element is reserved but not in display*/
 
