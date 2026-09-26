@@ -109,3 +109,16 @@ div{
 
 when visibility is hidden for any element, space for that element is reserved but not in display*/
 
+/* Alpha channel
+
+decides the opacity of the colour
+
+means kaunsa colour kitna jyada ya kam dikhega*/
+
+#op1 {
+    background-color: rgba(255,0,0,0.5);
+}
+
+#op2 {
+    background-color: rgba(255,0,0,1);
+}
