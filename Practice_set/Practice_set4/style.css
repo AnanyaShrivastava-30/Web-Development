@@ -23,3 +23,18 @@ a {
     margin-right: 200px;
 }
 
+.contentbox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(83, 6, 6);
+    display: inline-block;
+} 
+
+#content{
+    height: 500px;
+}
+
+footer {
+    background-color: rgb(185, 250, 229);
+    text-align: center;
+}
