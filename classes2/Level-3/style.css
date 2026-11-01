@@ -1,0 +1,55 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+#box1{
+    background-color:pink;
+    height: 100px;
+    width: 200px;
+    font-size: 10px;
+}
+
+#box2 {
+    background-color: beige;
+    height: 50px;
+    width: 30%;
+    margin-left: 10%;
+    font-size: 2em;
+
+}
+
+/* % means relative unit -- define relative size of element wrt parent  */
+ /* em -- define relative size of font wrt parent   */
+ /* rem -- font size of root element */
+
+ div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+ }
+
+ #divi1 {
+    background-color: aqua;
+    display: inline-block;
+    position: static;
+ }
+
+ #divi2 {
+    background-color: aquamarine;
+    display: inline-block;
+    position: relative;
+
+ }
+
+ #divi3 {
+    background-color: blanchedalmond;
+     display: inline-block;
+
+ }
+
+ #divi4 {
+    background-color: bisque;
+    display: inline-block;
+
+ }
