@@ -45,11 +45,13 @@
  #divi3 {
     background-color: blanchedalmond;
      display: inline-block;
+     position: absolute;
 
  }
 
  #divi4 {
     background-color: bisque;
     display: inline-block;
+    position: fixed;
 
  }
