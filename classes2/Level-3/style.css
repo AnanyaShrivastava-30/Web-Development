@@ -39,6 +39,8 @@
     background-color: aquamarine;
     display: inline-block;
     position: relative;
+    top: 50px;
+    left: 5px;
 
  }
 
@@ -46,12 +48,31 @@
     background-color: blanchedalmond;
      display: inline-block;
      position: absolute;
+     top: 400px;
+     left : 230px;
 
  }
 
  #divi4 {
-    background-color: bisque;
+    background-color: burlywood;
     display: inline-block;
     position: fixed;
+    bottom: 10px;
+    width: 100%;
+    left: 0px;
 
  }
+
+ #divi5 {
+   background-color: cadetblue;
+   position: sticky;
+   top: 1000px;
+   left: 500px;
+ }
+
+ /* --POSITION--
+ 1. static : Default
+ 2. Relative : relative to itself
+ 3. Absolute : relative to its closest non-static ancesstor (parent) {bahar wala tag}
+ 4. Fixed : relative to browser {usually use to add header, footer, navbar etc
+ 5/ Sticky : relative to scroll {means if it is set to 100px then this is fixed to 100 px of scrolling */
