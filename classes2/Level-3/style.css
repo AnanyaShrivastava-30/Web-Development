@@ -3,6 +3,10 @@
     padding: 0px;
 } */
 
+/* % means relative unit -- define relative size of element wrt parent  */
+ /* em -- define relative size of font wrt parent   */
+ /* rem -- font size of root element */
+
 #box1{
     background-color:pink;
     height: 100px;
@@ -19,15 +23,18 @@
 
 }
 
-/* % means relative unit -- define relative size of element wrt parent  */
- /* em -- define relative size of font wrt parent   */
- /* rem -- font size of root element */
-
  div {
     height: 100px;
     width: 100px;
     border: 2px solid black;
  }
+
+  /* --POSITION--
+ 1. static : Default
+ 2. Relative : relative to itself
+ 3. Absolute : relative to its closest non-static ancesstor (parent) {bahar wala tag}
+ 4. Fixed : relative to browser {usually use to add header, footer, navbar etc
+ 5/ Sticky : relative to scroll {means if it is set to 100px then this is fixed to 100 px of scrolling */
 
  #divi1 {
     background-color: aqua;
@@ -40,8 +47,6 @@
     display: inline-block;
     position: relative;
     top: 50px;
-    left: 5px;
-
  }
 
  #divi3 {
@@ -57,7 +62,7 @@
     background-color: burlywood;
     display: inline-block;
     position: fixed;
-    bottom: 10px;
+    bottom: 0px;
     width: 100%;
     left: 0px;
 
@@ -70,9 +75,38 @@
    left: 500px;
  }
 
- /* --POSITION--
- 1. static : Default
- 2. Relative : relative to itself
- 3. Absolute : relative to its closest non-static ancesstor (parent) {bahar wala tag}
- 4. Fixed : relative to browser {usually use to add header, footer, navbar etc
- 5/ Sticky : relative to scroll {means if it is set to 100px then this is fixed to 100 px of scrolling */
+/* z-index -- means kaunsa element kiske upar overlap karega
+
+1.z index is auto (0) by default
+2. if +ve then upar utna 
+3. if jitna -ve utna niche */
+
+.index {
+   height: 100px;
+   width: 100%;
+}
+#z1 {
+   background-color: orange;
+   position: static;
+   display: inline-block;
+}
+
+#z2 {
+   background-color: orangered;
+   display: inline-block;
+   position: relative;
+   left: 12px;
+   bottom: 30px;
+   z-index: 2;
+
+}
+
+#z3 {
+   background-color: orchid;
+   display: inline-block;
+   position: absolute;
+   bottom: 50px;
+   left: 80px;
+   
+
+}
