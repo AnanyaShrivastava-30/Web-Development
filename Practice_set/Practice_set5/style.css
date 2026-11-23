@@ -1,0 +1,9 @@
+div {
+    height: 100px;
+    width: 100px;
+    color: beige;
+    background-image: url("Mountain_image.jpg");
+    background-size: cover;
+    position: fixed;
+    right: 10px;
+}
