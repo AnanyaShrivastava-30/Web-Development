@@ -1,0 +1,30 @@
+ul {
+    background-color: #FFEEB3;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: #F47321;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+.outer {
+    height: 500px;
+    width: 500px;
+    background-color: #F5A89A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner {
+    height: 200px;
+    width: 200px;
+    background-color: #FFEFD2;
+}
