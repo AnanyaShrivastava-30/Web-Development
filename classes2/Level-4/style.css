@@ -44,3 +44,26 @@ div{
     /* align-self: flex-end; */
 }
 
+#media {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+@media(width:100px) {
+    #media {
+            background-color: blue;
+    }
+}
+
+@media(min-width:99px){
+    #media {
+        background-color: blueviolet;
+    }
+}
+
+@media(max-width:200px) {
+   #media {
+    background-color: brown;
+   } 
+}
